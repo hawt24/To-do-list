@@ -1,0 +1,60 @@
+.input{
+    display: flex;
+    width: 90%;
+    position: relative;
+    align-items: center;
+    
+}
+.inut_box{
+    width: 100%;
+    border-radius: 50px;
+    padding: 20px 30px;
+    font-size: 25px;
+    border: none;
+    transition: 0.2s;
+    box-shadow: inset 0 0 5px black;
+}
+.inut_box:focus{
+    box-shadow: 0 0 100px 1000px rgba(0,0, 0, 0);
+    outline: none;
+}
+.input_submit{
+    position:absolute;
+    width: 50px;
+    height: 50px;
+    margin: 12px;
+    border-radius: 50px;
+    right: 0px;
+    border: none;
+    font-size: 15px;
+    background-color: cornflowerblue;
+    color: white;
+    transition: 0.2s all;
+    box-shadow: 0 0 10px black;
+}
+.input_submit:hover{
+    background-color: rgb(230, 222, 222);
+}
+.todos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: wrap;
+}
+.todos_single{
+    display:flex;
+    width: 29.5%;
+    border-radius:5px;
+    padding: 20px;
+    margin-top: 15px;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0HBw0NBw0HBwcHDQ0HBw0HBw8IDQ0NFREWFhURFRUYHC4gGBolJxUVITIhJSk3Li40Fx8zODszQygtPisBCgoKDQ0NDg0NDjcZFRkrKysrKy0rKy0tNysrKys3Ky0rKystKysrKysrLSstLSsrKysrLSsrKy0rKy0tKy0tLf/AABEIAK4BIgMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAABAAIGBAUD/8QAHhABAQEAAgIDAQAAAAAAAAAAAAECAxEEBUFx8SH/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAQIEA//EABgRAQADAQAAAAAAAAAAAAAAAAACElEB/9oADAMBAAIRAxEAPwD6vkc+/J5dcnPrXJy8lutXV7YDTreCKMBQogiiCaBAwwRoRQogiiCKIIogSCBKIiMRAwgwCVCCKIIqEFDPxER7c+0585km71mTM7ndTxpK8xq3dcxCoVVGIgmgQJBAwxQgoVDBE0CBIIEggSI0CKIiaBAwwNQEYiCKIIogijBCYCBSQOYagI2SCBIIExQwFDFCITAQJBAkECYGoCKMBNAiEhoFCiChRApGAmgYIYRCBhRgJFA5ggjZKIIogo1AYBhghghKIIogiiCKhgJoGCEogijAUagIEggSCBMEaERiMBFQgQUDmCiNoogo0CBIaERRBFEEUQRihAkGCEogiiBIIEggSkBIaERiMBNQQgTA1AQKBzBRGyQYBIagiKIKFEEUQRRgEwQwCYoREUQJEIEogiiCKIKGKGCJqCEDDFCChUIJFA5ggjZKIIowRRoQgSCBIhAmBoEYiImoCBIaBFEEUQRRBFEQmCGASjARiMAwwGAUkDmCiNooiEiECQQJBAlGAoVCCagIhIaBQogiiCKIFIiEgwCYoQUKhgGEEDCoQSKBy7QhGyYCISiCKIIogoUYCjQMEMMDQKGIgYQQJBAkECQ0IiiCMUMAmBoEUYCKIIpA5gwNQaRRBFEEUQRUIEgiGFQwFCjAMIIEggSiCIaERRBRoECYGgUKMBQogSCCRQOYL0ew8S+D5W+LVzu8d6lz8z4fgNIogiiCaBAkEDDEYIoYoQMIagKFEEUQRRBGIiJoQgSGgRiMBNQGASCBIak7v3/AQfVx6i3Mt3JbJb1ExeOtUlj/2Q==");
+
+}
+.todos_single--text{
+    outline: none;
+}
+.icon{
+    margin-left: 10px;
+    font-size: 25px;
+    cursor: po;
+}
